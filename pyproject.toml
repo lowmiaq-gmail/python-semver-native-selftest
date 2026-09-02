@@ -84,7 +84,7 @@ test = [
 publish = [
   "twine<=6.2.0",
   # pyproject-build is required for building the package
-  "build<=1.5.0",
+  "build<=1.6.0",
 ]
 changelog = [
   "towncrier==25.8.0",
