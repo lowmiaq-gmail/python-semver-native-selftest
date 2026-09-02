@@ -27,3 +27,5 @@ def test_optional_backend_is_not_used_for_python_only_optional_parts() -> None:
 
 # ci bump 20260902073834
 # selftest 20260902T074154Z
+
+# pypi-clean-repro bump 2026-09-02T09:08:20Z (public PyPI only re-verify)
