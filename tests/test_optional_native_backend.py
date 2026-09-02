@@ -24,3 +24,5 @@ def test_optional_backend_is_available_without_changing_public_objects() -> None
 def test_optional_backend_is_not_used_for_python_only_optional_parts() -> None:
     result = Version.parse("7", optional_minor_and_patch=True)
     assert result.to_tuple() == (7, 0, 0, None, None)
+
+# ci bump 20260902073834
