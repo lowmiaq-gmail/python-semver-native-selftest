@@ -69,7 +69,7 @@ pysemver = "semver.cli:main"
 # See https://github.com/astral-sh/uv/issues/5632
 # See https://peps.python.org/pep-0735/
 typing = [
-  "mypy<=2.1.0",
+  "mypy<=2.3.1",
   "pyright<=1.2",
 ]
 formatting = [
